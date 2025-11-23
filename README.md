@@ -5,7 +5,7 @@ Sentellect is a **personalized learning platform** designed for **HSSC Part 2 st
 It uses **machine learning (joblib model)** and a **Flask + HTML** framework to provide
 customized learning recommendations and user-specific insights.
 
-The project includes a backend model, a structured Django environment,
+The project includes a backend model, a structured Flask environment,
 and a database instance containing user records.
 
 ---
