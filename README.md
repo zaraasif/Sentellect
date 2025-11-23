@@ -2,7 +2,7 @@
 # 📘 **Sentellect — Personalized Learning for HSSC Part 2**
 
 Sentellect is a **personalized learning platform** designed for **HSSC Part 2 students**.
-It uses **machine learning (joblib model)** and a **Django + HTML** framework to provide
+It uses **machine learning (joblib model)** and a **Flask + HTML** framework to provide
 customized learning recommendations and user-specific insights.
 
 The project includes a backend model, a structured Django environment,
@@ -14,7 +14,7 @@ and a database instance containing user records.
 
 * 🎓 Personalized study recommendations
 * 🤖 Machine Learning model integrated using `.joblib`
-* 🌐 Django backend with clean HTML templates
+* 🌐 Flask backend with clean HTML templates
 * 👤 User database stored inside the `instances/` folder
 * 📊 Dynamic content based on user inputs
 * 🖥 Simple and lightweight interface for student usage
@@ -91,13 +91,7 @@ Since your project includes `app.py`, run:
 python app.py
 ```
 
-or, if Django's `manage.py` is inside:
 
-```
-python manage.py runserver
-```
-
----
 
 ## 🤖 **Machine Learning Model**
 
@@ -107,7 +101,7 @@ The project uses a `.joblib` ML model located at:
 model.joblib
 ```
 
-If the model is too large for GitHub, add it to Google Drive and include the link here:
+ Google Drive link here:
 
 **Model Download:**
 https://drive.google.com/file/d/1JqUMN4wUUzcHNXjbS4sl4cakNZ_dy6DP/view?usp=sharing
